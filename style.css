@@ -1,0 +1,112 @@
+body {
+  background-color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+h1 {
+  text-align: center;
+  font-weight: lighter;
+  color: black;
+  font-size: 25pt;
+  letter-spacing: 10px;
+}
+h2 {
+  text-align: center;
+  font-weight: lighter;
+}
+h3 {
+  color: #FFCC00;
+  font-weight: lighter;
+}
+.topnav {
+  font-size: 10pt;
+  font-weight: bold;
+  }
+  a {
+    text-decoration: none;
+    color: #9A9B94;
+    padding: 10px;
+  }
+  .topnav a:hover {
+    border-bottom: 1px solid #9A9B94;
+  }
+  .active{
+    border-bottom: 1px solid #9A9B94;
+  }
+  .v1 {
+    border-left: 6px solid #FFCC00;
+    height: 100%;
+    position: absolute;
+    margin-left: 20%;
+    margin-top: -23px;
+  }
+  .column {
+      float: left;
+  }
+  .column.side{
+    width: 35%;
+  }
+  .column.middle{
+    width: 30%;
+  }
+  .p {
+    margin-top: 80px;
+  }
+  .gallery {
+    margin-top: -10px;
+    margin-left: 10px;
+    padding: 0px;
+  }
+  .small.img {
+    height: 190px;
+    filter: opacity(50%);
+    transition: 1s;
+    padding-top: 19px;
+  }
+  .small.img:hover {
+    filter: opacity(100%);
+  }
+  .contact-form {
+    text-align: center;
+    margin-top: 80px;
+  }
+  form {
+    margin-top: 80px;
+  }
+  .form-control {
+    width: 400px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #E9E9E5;
+    font: 15px 'Montserrat', sans-serif;
+    color: black;
+  }
+  input {
+    height: 45px;
+  }
+  form .submit {
+    background: linear-gradient(45deg, rgba(247,150,52,1) 0%, rgba(255,204,0,1) 100%);
+    color: white;
+    font: 15px 'Montserrat', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-top: 20px;
+  }
+  form .submit:hover {
+    cursor: pointer;
+  }
+  ::placeholder {
+    color: #9A9B94;
+  }
+  .contact1 {
+    height: 40px;
+    margin-left: 120px;
+    margin-top: 200px;
+  }
+  .riga {
+    height: 70px;
+  }
+  .small {
+    font-size: 10pt;
+    color: #9A9B94;
+  }
