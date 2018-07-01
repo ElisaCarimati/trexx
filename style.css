@@ -110,3 +110,18 @@ h3 {
     font-size: 10pt;
     color: #9A9B94;
   }
+  .link {
+    color: #ffcc00;
+    padding: 0;
+  }
+  .elisa {
+    position: relative;
+    left:8.5%;
+    margin-top: -40px;
+  }
+  .icona {
+    position: relative;
+    left:22%;
+    height: 30px;
+    padding-top: 30px;
+  }
