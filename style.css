@@ -52,7 +52,9 @@ h3 {
     margin-right: 28%;
   }
   .gallery {
-    margin-left: 26%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 440px;
   }
   .small.img {
     height: 190px;
